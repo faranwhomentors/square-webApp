@@ -122,13 +122,13 @@
             displayPaymentResults('SUCCESS');
 
             console.debug('Payment Success', paymentResults);
-            console.log('Payment Success');
+            console.log("Payment Success");
           } catch (e) {
             cardButton.disabled = false;
             giftCardButton.disabled = false;
             displayPaymentResults('FAILURE');
             console.error(e.message);
-            console.log('Payment failed');
+            console.log("Payment failed");
 
           }
         }
